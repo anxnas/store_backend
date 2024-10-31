@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "store-backend"
+version = "0.1.0"
+description = "Бэкенд для магазина"
+authors = ["Святослав Хренов (anxnas) <slavakhrenov02@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.1.2"
+djangorestframework = "^3.15.2"
+django-cors-headers = "^4.6.0"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
